@@ -1,0 +1,67 @@
+.login-section {
+  padding: 50px;
+}
+.login-box {
+  display: block;
+  margin: auto;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 2px;
+  border-radius: 25px;
+  box-shadow: 0 1px 10px 0 gray;
+  max-width: 500px;
+  max-height: 700px;
+  min-height: 500px;
+}
+
+.login-form {
+  width: 60%;
+  height: 60%;
+  margin: 100px auto;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.login-form h1 {
+  font-size: 3rem;
+}
+.login-form label {
+  padding-right: 15px;
+}
+
+.form-group {
+  padding: 5px;
+  margin: auto;
+}
+
+/* <div className="login-section">
+        <div className="login-box">
+          <form className="login-form">
+            <h1>Sign In</h1>
+            <div className="form-group">
+              <label>Email address</label>
+              <input
+                type="email"
+                className="form-control"
+                placeholder="Enter email"
+              />
+            </div>
+
+            <div className="form-group">
+              <label>Password</label>
+              <input
+                type="password"
+                className="form-control"
+                placeholder="Enter password"
+              />
+            </div>
+
+            <button type="submit" className="btn btn-primary btn-block">
+              Submit
+            </button>
+            <p className="forgot-password text-right">
+              Forgot <a href="#">password?</a>
+            </p>
+          </form>
+        </div>
+      </div> */
